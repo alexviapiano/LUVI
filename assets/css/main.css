@@ -4656,9 +4656,27 @@ input, select, textarea {
 
 		}
 
-/* Footer */
+	/* Footer */
 
 	.copyright {
 		color: rgba(40, 40, 40, 0.5);
 		text-align: center;
 	}
+
+/* ------------------------ Custom -------------------------- */
+
+@media screen and (max-width: 980px) {
+
+	.hideOnMediumScreen {
+		display: none !important;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.hideOnSmallScreen {
+		display: none !important;
+	}
+
+}
