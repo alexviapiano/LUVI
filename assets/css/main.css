@@ -4687,3 +4687,9 @@ input, select, textarea {
 	}
 }
 
+@media screen and (max-width: 737px) {
+	.logo_big {
+		height: 250px !important;
+	}
+}
+
