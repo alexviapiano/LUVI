@@ -3490,8 +3490,8 @@ input, select, textarea {
 			display: inline-block;
 			font-size: 1rem;
 			letter-spacing: 0.25rem;
-			margin-bottom: 2.5rem;
-			padding-bottom: 1rem;
+			/* margin-bottom: 2.5rem;
+			padding-bottom: 1rem; */
 		}
 
 		.split .content {
@@ -4680,3 +4680,10 @@ input, select, textarea {
 	}
 
 }
+
+@media screen and (min-width: 737px) {
+	.logo-img {
+		margin-top: 20px;
+	}
+}
+
