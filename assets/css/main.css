@@ -4735,3 +4735,7 @@ body.is-preload #banner .inner {
     height: 250px !important;
   }
 }
+
+.slimwave-popup {
+  background: "#000";
+}
